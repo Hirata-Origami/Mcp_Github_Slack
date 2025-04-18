@@ -1,0 +1,19 @@
+{
+  "servers": {
+    "GitHubMonitor": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "--with",
+        "pygithub",
+        "--with",
+        "slack_sdk",
+        "mcp",
+        "run",
+        "D:\\Projects\\Demo-Mcp\\main.py"
+      ]
+    }
+  }
+}
